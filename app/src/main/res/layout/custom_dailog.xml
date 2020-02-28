@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="22.5dp"
+        android:layout_marginTop="25.117dp"
+        android:layout_marginRight="22.5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="6.867sp"
+        android:text="Welcome to Baniya!"
+        android:textColor="#525050"
+        android:textSize="22.88sp" />
+
+
+    <EditText
+
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="22.5dp"
+        android:layout_marginTop="1.373dp"
+        android:layout_marginRight="22.5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:lineSpacingExtra="6.867sp"
+        android:padding="15dp"
+        android:textColor="#0d0101"
+        android:textSize="18.311sp"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="22.5dp"
+        android:layout_marginTop="1.373dp"
+        android:layout_marginRight="22.5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:lineSpacingExtra="6.867sp"
+        android:padding="15dp"
+        android:textColor="#0d0101"
+        android:textSize="18.311sp"
+
+        />
+
+
+
+
+</LinearLayout>
+
+
+
